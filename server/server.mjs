@@ -36,7 +36,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 const SOCKET_PORT = process.env.PORT || 5000;
 
 // DO NOT EDIT ABOVE THIS LINE
