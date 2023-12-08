@@ -26,7 +26,7 @@
     "vite": "^4.4.5"
   },
   "scripts": {
-    "build": "npm install && cd client && npm install && cd.. && cd server && npm install",
+    "build": "npm install && cd client && npm install && cd .. && cd server && npm install",
     "start": "npm-run-all --parallel start-client start-server",
     "start-client": "cd client && npm start",
     "start-server": "cd server && npm start",
