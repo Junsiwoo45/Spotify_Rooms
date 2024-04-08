@@ -268,7 +268,7 @@ app.post("/newSongRecord", async (req, res) => {
 // END POST AND LIKES
 
 
-// Developer : Sione Havili
+
 
 //Sockets VARIABLES
 const server = http.createServer(app);
